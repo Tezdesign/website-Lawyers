@@ -90,7 +90,7 @@ export default function Home() {
                   <h3 className="font-bold text-foreground mb-2 text-lg">{service.title}</h3>
                   <p className="text-muted-foreground text-sm mb-4">{service.desc}</p>
                   <Link href="/services">
-                    <Button variant="ghost" size="sm" className="p-0 text-accent hover:text-accent hover:underline transition-all">
+                    <Button variant="ghost" size="sm" className="p-0 h-auto text-accent hover:bg-transparent hover:text-accent/80 transition-colors">
                       En savoir plus
                       <ArrowRight className="w-3 h-3 ml-1" />
                     </Button>
